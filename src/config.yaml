@@ -11,7 +11,7 @@ metadata:
   title:
     default: PostQ.pl
     template: '%s — PostQ.pl'
-  description: 'A simple blog built with Astro and Tailwind CSS.'
+  description: 'Era post-quantum w komunikacji cyfrowej: technologie, zagrożenia i rozwiązania'
   robots:
     index: true
     follow: true

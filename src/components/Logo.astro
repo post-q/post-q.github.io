@@ -1,11 +1,13 @@
 ---
 import { SITE } from 'astrowind:config';
-import favIconSvg from '~/assets/favicons/favicon.svg';
+import favIconLight from '~/assets/favicons/favicon.svg';
+import favIconDark from '~/assets/favicons/favicon-dark.svg';
 ---
 
 <span class="self-center ml-2 rtl:ml-0 rtl:mr-2 flex items-center gap-2">
-  <img src={favIconSvg.src} alt="" class="w-6 h-6 md:w-8 md:h-8" />
+  <img src={favIconLight.src} alt="" class="w-6 h-6 md:w-8 md:h-8 dark:hidden" />
+  <img src={favIconDark.src} alt="" class="w-6 h-6 md:w-8 md:h-8 hidden dark:block" />
   <span class="text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
-    {SITE?.name}
+        {SITE?.name}
   </span>
 </span>

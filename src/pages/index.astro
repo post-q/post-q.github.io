@@ -1,3 +1,99 @@
 ---
-return Astro.redirect('/blog');
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Content from '~/components/widgets/Content.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
+
+import { headerData } from '~/navigation';
+import FAQs from '~/components/widgets/FAQs.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
 ---
+
+<Layout metadata={metadata}>
+  <Fragment slot="header">
+    <Header
+      {...headerData}
+      isSticky
+      showRssFeed
+      showToggleTheme
+    />
+  </Fragment>
+
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Komunikacja cyfrowa w erze post-quantum"
+    actions={[
+    ]}
+    image={{
+      src: '~/assets/images/seal.png',
+      alt: 'AstroWind Hero Image',
+    }}
+  >
+    <Fragment slot="title">
+Informacje mają wartość. Ich ochrona musi wytrzymać przyszłość.
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+Bo komunikacja cyfrowa to nie tylko kryptografia i protokoły. To wizerunek, zaufanie i odpowiedzialność, także w kontekście post-quantum.
+    </Fragment>
+  </Hero2>
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    title="Jak komputer kwantowy wpływa na komunikację cyfrową?"
+    subtitle=""
+    columns={2}
+    items={[
+      {
+        title: 'Poufność komunikacji w czasie',
+    description: "Zaszyfrowane dane przechwycone dziś mogą zostać zdeszyfrowane i ujawnione w przyszłości, co podnosi ryzyko wycieku informacji o długiej wartości.",
+        icon: 'tabler:layers-union',
+      },
+      {
+        title: 'Zaufanie do danych',
+        description: "Komputer kwantowy podważa dzisiejsze gwarancje, że informacje są prawdziwe i nienaruszone, co wpływa na wiarygodność procesów opartych na komunikacji cyfrowej.",
+        icon: 'tabler:artboard',
+      },
+      {
+        title: 'Pewność tożsamości',
+        description:
+          "Komputer kwantowy osłabia metody potwierdzania, kto faktycznie uczestniczy w komunikacji, co zwiększa ryzyko podszycia się i błędnych decyzji.",
+        icon: 'tabler:writing',
+      },
+      {
+        title: 'Długowieczność podpisów cyfrowych',
+        description: "Podpisy oparte na klasycznych algorytmach tracą odporność, co z czasem podważa wartość dowodową dokumentów i transakcji.",
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Strategiczna przewidywalność',
+    description: "Co dotychczas po prostu działało, komputer kwantowy zmienia i wymusza now podejście do bezpieczeństwa komunikacji cyfrowej.",
+        icon: 'tabler:eyeglass',
+      },
+    ]}
+  />
+
+  <!-- BlogLatestPost Widget **************** -->
+
+  <BlogLatestPosts
+    id="blog"
+    title="Nowości na blogu"
+    information={``}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestPosts>
+</Layout>

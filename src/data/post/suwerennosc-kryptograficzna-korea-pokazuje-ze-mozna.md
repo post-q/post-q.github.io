@@ -2,7 +2,7 @@
 publishDate: 2025-12-09T00:00:00Z
 title: 'Suwerenność kryptograficzna: Korea pokazuje, że można'
 author: Michal Pietrus
-excerpt: Korea Południowa jako jedyny kraj „Zachodu” (poza USA) stworzyła własne, narodowe standardy post-quantum crypto. To decyzja nie tylko techniczna, lecz strategiczna, pokazująca, że suwerenność cyfrowa zaczyna się nie od kryptografii, lecz od odwagi.
+excerpt: Korea Południowa jako jedyny kraj „Zachodu” (poza USA) stworzyła własne, narodowe standardy post-quantum crypto. To decyzja nie tylko techniczna, lecz strategiczna, pokazująca, że suwerenność cyfrowa zaczyna się nie od kryptografii, lecz od odwagi i pewności we własne możliwości.
 image: ~/assets/images/posts/nist_nsr.png
 tags:
   - pqc

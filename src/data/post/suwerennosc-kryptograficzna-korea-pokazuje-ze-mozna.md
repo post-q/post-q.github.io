@@ -34,3 +34,5 @@ W każdym z tych wyborów widać jedną rzecz: to nie kopiowanie cudzych standar
 Korea zatem pokazuje, że kompetencje to nie wszystko. Potrzebna jest odwaga, aby powiedzieć: „bierzemy odpowiedzialność za własne bezpieczeństwo”.
 
 Czy Europa jest gotowa zrobić to samo?
+
+A może my w Polsce powinniśmy przynajmniej rozważyć standardy koreańskie na rzecz cyfrowego bezpieczeństwa narodowego w wariancie post-quantum?

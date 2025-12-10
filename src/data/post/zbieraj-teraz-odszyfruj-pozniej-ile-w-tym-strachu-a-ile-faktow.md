@@ -35,4 +35,4 @@ W większości przypadków odpowiedź będzie negatywna, ale... mniejszość prz
 
 W skrócie:
 — jeśli dziś robisz e-commerce 🛒📦, nie przejmuj się.
-— jeśli jesteś bankiem 🏦 albo dostawcą infrastruktury krytycznej — warto przynajmniej rozważyć analizę.
+— jeśli jesteś bankiem 🏦 albo dostawcą infrastruktury krytycznej — analiza i działanie.

@@ -32,6 +32,6 @@ export const footerData = {
   secondaryLinks: [],
   socialLinks: [{ ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') }],
   footNote: `
-    Licensed under CC BY-NC 4.0.
+    PostQ.pl © 2025
   `,
 };

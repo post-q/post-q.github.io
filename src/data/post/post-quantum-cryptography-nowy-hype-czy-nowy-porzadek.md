@@ -17,9 +17,7 @@ Zbliżając się do końca 2025 roku, czy przejście do kryptografii post-kwanto
 
 Odkładając na bok dyskusje o tym, czy (albo kiedy) pojawi się komputer kwantowy zdolny łamać dzisiejsze algorytmy, ziarna zostały zasiane. Świat powoli wchodzi w zupełnie nową kryptografię jutra. Tym samym otwiera się okno do zmiany, nie tylko w kontekście kryptografii, ale też governance, czyli obecnego porządku. Takie, którego nie było od czasu ustalenia obecnego porządku.
 
-Dzisiejsze schematy kryptograficzne same w sobie nie są słabe, ale ich governance już tak. W praktyce nie ma żadnego globalnego konsensusu, a jest za to kilka cyfrowych podmiotów, które decydują, gdzie idziemy dalej i w jaki sposób.
-
-Jednocześnie rzecz nie jest w tym, aby gonić za cyfrową suwerennością poprzez budowanie własnej infrastruktury/krypto/czegokolwiek tylko dlatego, że to [nowy hype](https://en.wikipedia.org/wiki/Gartner_hype_cycle). Chodzi o świadomość własnych potrzeb i dobór rozwiązań, które rzeczywiście je spełniają.
+Dzisiejsze schematy kryptograficzne same w sobie nie są słabe, ale ich governance już tak. W praktyce nie ma żadnego globalnego konsensusu, a jest za to kilka cyfrowych podmiotów, które decydują, gdzie idziemy dalej i w jaki sposób. Jednocześnie rzecz również nie jest w tym, aby gonić za cyfrową suwerennością poprzez budowanie własnej infrastruktury/kryptografii tylko dlatego, że to [nowy hype](https://en.wikipedia.org/wiki/Gartner_hype_cycle). Chodzi o świadomość własnych potrzeb i dobór rozwiązań, które rzeczywiście je spełniają.
 
 Jeśli nie jesteś przekonana(y), rzuć okiem na jeden z południowokoreańskich wariantów post-quantum crypto, wybranego do podpisów cyfrowych, "HAETAE", i na [abstrakt papieru](https://eprint.iacr.org/2023/624). Adresują wymagania, które pasują do ich potrzeb.
 
@@ -33,4 +31,4 @@ Rzecz w tym, że teraz jest ten moment na zmiany, które ukształtują przyszłe
 
 Dlatego to właśnie teraz jest czas, by zweryfikować swoje obecne wybory i przyjrzeć się ekosystemom, z których korzystasz. Niezależnie od tego, czy jesteś podmiotem biznesowym, czy rządowym, przemyśl swoje potrzeby i sparuj je z właściwymi rozwiązaniami.
 
-Ostatecznie, jeśli nie jesteś gotów na tę zmianę mentalną, po prostu idź za tłumem.
+Ostatecznie, jeśli nie jesteś gotów na tę zmianę mentalną, po prostu podążaj za tłumem.

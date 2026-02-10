@@ -1,18 +1,18 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
     {
+      text: 'Blog',
+      href: '/',
+    },
+    {
       text: 'Oferta',
-      href: '/#oferta',
+      href: '/offer',
     },
     {
       text: 'Kontakt',
-      href: '/#kontakt',
-    },
-    {
-      text: 'Blog',
-      href: getBlogPermalink(),
+      href: '/offer#kontakt',
     },
   ],
   actions: [],
@@ -23,9 +23,9 @@ export const footerData = {
     {
       title: 'PostQ.pl',
       links: [
-        { text: 'Blog', href: getBlogPermalink() },
-        { text: 'Oferta', href: '/#oferta' },
-        { text: 'Kontakt', href: '/#kontakt' },
+        { text: 'Blog', href: '/' },
+        { text: 'Oferta', href: '/offer' },
+        { text: 'Kontakt', href: '/offer#kontakt' },
       ],
     },
   ],

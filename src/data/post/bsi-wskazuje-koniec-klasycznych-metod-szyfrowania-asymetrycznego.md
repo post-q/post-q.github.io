@@ -7,6 +7,7 @@ image: ~/assets/images/posts/bsi2.png
 tags:
   - bsi
   - pqc-migration
+  - where-are-we
 metadata:
   canonical: https://postq.pl/bsi-wskazuje-koniec-klasycznych-metod-szyfrowania-asymetrycznego
 ---

@@ -6,6 +6,7 @@ excerpt: Z jednej strony elegancja i "prostota", ale z drugiej mnogość wariant
 image: ~/assets/images/posts/slh-dsa.png
 tags:
   - pqc-migration
+  - slh-dsa
 metadata:
   canonical: https://postq.pl/demistyfikacja-slh-dsa-i-jego-praktyczne-uzycie
 ---

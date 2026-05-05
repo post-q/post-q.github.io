@@ -5,7 +5,7 @@ author: Michal Pietrus
 excerpt: "Końcówka Q1 2026 wyznacza nowy kierunek: hardware rozwija się swoim torem, a ciężar prac przesuwa się w stronę architektury i modeli obliczeniowych. Wszystko wciąż pozostaje na papierze i poza realną weryfikacją, ale wyraźnie wpływa na percepcję rynku."
 image: ~/assets/images/posts/quantum-landscape.gif
 tags:
- - pqc
+ - where-are-we
 metadata:
   canonical: https://postq.pl/czy-zmiana-paradygmatu-architektury-przyspiesza-q-day
 ---
